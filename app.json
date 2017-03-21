@@ -6,41 +6,41 @@
     "pages/setting/setting",
     "pages/logs/logs"
   ],
+ 
   "window":{
-    "backgroundTextStyle":"light",
+    "backgroundTextStyle":"dark",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "NotALotteryTicket",
     "navigationBarTextStyle":"black"
   }, 
+ 
   "tabBar":{
-    "borderStyle":"white",
-    "backgroundColor":"#f5f5f5",
-    "selectedColor":"#222",   
+    "borderStyle":"black",
+    "backgroundColor":"white",
+    "selectedColor":"green",
+    
         "list":[
         {
-          "pagePath" : "",
-          "text":" ",
-          "iconPath":"",
-          "selectedIconPath":""
+          "pagePath" : "pages/index/index",
+          "text":"ToDo",
+          "iconPath":"images/cart.png"
           },
         {
-          "pagePath" : "",
-          "text":" ",
-          "iconPath":"",
-          "selectedIconPath":""
+          "pagePath" : "pages/progress/progress",
+          "text":"Progress",
+          "iconPath":"images/wxb.png"
           },
         {
-          "pagePath" : "",
-          "text":" ",
-          "iconPath":"",
-          "selectedIconPath":""
+          "pagePath" : "pages/tomato/tomato",
+          "text":"tomato",
+          "iconPath":"images/time2.png"
           },
         {
-          "pagePath" : "",
-          "text":" ",
-          "iconPath":"",
-          "selectedIconPath":""
+          "pagePath" : "pages/setting/setting",
+          "text":"setting",
+          "iconPath":"images/set.png"
           }
         ]
+
       }
 }
